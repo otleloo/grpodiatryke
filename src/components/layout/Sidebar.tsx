@@ -189,7 +189,7 @@ export const Sidebar = () => {
           <div className="absolute top-0 left-0 bottom-0 w-full bg-white shadow-lg overflow-hidden flex flex-col" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between p-4 border-b">
               <button onClick={() => handleNavigation('/')} className="flex items-center">
-                <img src="/logo.png" alt="GR Podiatry Logo" className="h-auto w-[200px] object-contain" />
+                <img src="/logo.webp" alt="GR Podiatry Logo" className="h-auto w-[200px] object-contain" />
               </button>
               <button onClick={toggleMobileSidebar} className="text-gray-500 hover:text-gray-700" aria-label="Close menu">
                 <X size={24} />

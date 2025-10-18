@@ -34,7 +34,7 @@ export const Header = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
-            <img src="/logo.png" alt="GR Podiatry Logo" className="h-12 object-contain" />
+            <img src="/logo.webp" alt="GR Podiatry Logo" className="h-12 object-contain" />
           </Link>
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
